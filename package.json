@@ -1,0 +1,25 @@
+{
+  "name": "express-rendered-errors",
+  "version": "0.0.1",
+  "description": "simple rendered errors for express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Mikxail/express-rendered-errors.git"
+  },
+  "keywords": [
+    "express",
+    "middleware",
+    "error",
+    "throw"
+  ],
+  "author": "Mikhail Konovalov",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "abstract-error": "git://github.com/Mikxail/abstract-error.git#master"
+  }
+}
