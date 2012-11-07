@@ -1,5 +1,5 @@
 var AbstractError = require('abstract-error');
-var RenderedError = AbstractError.create('RenderedError';)
+var RenderedError = AbstractError.create('RenderedError');
 module.exports = {
 	Error: function (tmpl, msg){
 		var err = new RenderedError(msg || "");
